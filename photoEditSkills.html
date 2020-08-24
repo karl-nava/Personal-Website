@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Photo Editing</title>
+  <!-- Bootstrap JS-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <!-- Style sheets-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <!--Scripts-->
+  <script src="https://kit.fontawesome.com/31086c5b6c.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#flip1").click(function() {
+        $("#panel1").slideDown("slow");
+      });
+    });
+    $(document).ready(function() {
+      $("#panel1").click(function() {
+        $("#panel1").slideUp("slow");
+      });
+    });
+    $(document).ready(function() {
+      $("#flip2").click(function() {
+        $("#panel2").slideDown("slow");
+      });
+    });
+    $(document).ready(function() {
+      $("#panel2").click(function() {
+        $("#panel2").slideUp("slow");
+      });
+    });
+    $(document).ready(function() {
+      $("#flip3").click(function() {
+        $("#panel3").slideDown("slow");
+      });
+    });
+    $(document).ready(function() {
+      $("#panel3").click(function() {
+        $("#panel3").slideUp("slow");
+      });
+    });
+  </script>
+</head>
+
+<body style="text-align:center;">
+  <h1>Photoshop</h1>
+  <h2>Less than 1 Year experience</h2>
+  <div id="flip1">Creating a Gif</div>
+  <div id="panel1">
+    <section style="text-align:center;">
+      <p>Click sides to close</p>
+      <br>
+      <h2>Original Images Used</h2>
+      <br>
+      <div class="row">
+        <div class="col-lg-4 center_tabs ">
+          <img class="photo" src="photoEditImages/comet.png" alt="">
+        </div>
+
+        <div class="col-lg-4 center_tabs ">
+          <img class="photo" src="photoEditImages/OG_Me_2.jpg" alt="">
+        </div>
+
+        <div class="col-lg-4 center_tabs ">
+          <img class="photo" src="photoEditImages/petals.jpg" alt="">
+        </div>
+      </div>
+      <br>
+      <h2>Final Result</h2>
+      <br>
+      <img class="finalPhoto" src="photoEditImages/GIF_Me.gif" alt="">
+    </section>
+  </div>
+
+  <div id="flip2">Combining 2 animal heads</div>
+  <div id="panel2">
+    <section style="text-align:center;">
+      <p>Click sides to close</p>
+      <br>
+      <h2>Original Images Used</h2>
+      <br>
+      <div class="row">
+        <div class="col-lg-6 center_tabs ">
+          <img class="photo" src="photoEditImages/OG_Gorilla.jpg" alt="">
+        </div>
+
+        <div class="col-lg-6 center_tabs ">
+          <img class="photo" src="photoEditImages/OG_Tiger.jpg" alt="">
+        </div>
+      </div>
+      <br>
+      <h2>Final Result</h2>
+      <br>
+      <img class="finalPhoto" src="photoEditImages/Tiger_with_Gorilla.png" alt="">
+    </section>
+  </div>
+
+
+  <h1>Gimp</h1>
+  <h2>Less than 1 Year experience</h2>
+  <div id="flip3">Creating image of myself using only polygons</div>
+  <div id="panel3">
+    <section style="text-align:center;">
+      <p>Click sides to close</p>
+      <br>
+      <h2>Original Images Used</h2>
+      <br>
+
+        <img class="photo" src="photoEditImages/OG_Me.jpg" alt="">
+      <br>
+      <h2>Final Result</h2>
+      <br>
+      <img class="finalPhoto" src="photoEditImages/Polygon_Me.png" alt="">
+    </section>
+  </div>
+</body>
+
+</html>

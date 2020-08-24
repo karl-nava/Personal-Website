@@ -1,0 +1,81 @@
+body{
+  background-color: #e4f9ff;
+}
+
+h2{
+  font-size: 175%;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: normal;
+  margin: 0 auto 0 auto;
+}
+
+p{
+  margin: 0;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+.drawings{
+  width: 80%;
+}
+
+.photo{
+  max-width: 200px;
+}
+
+.finalPhoto{
+  max-width: 400px;
+}
+
+
+
+.center_tabs{
+  text-align: center;
+}
+
+.tab_links{
+  border: 1px;
+  border-style: hidden;
+}
+
+.tab_links:hover{
+
+  border-style: solid;
+  border-color: black;
+}
+
+#intro{
+  text-align: center;
+  background-color: #e0ece4;
+}
+
+#skills{
+  background-color: #f7f2e7;
+  padding: 10% 0%;
+}
+
+#contacts{
+  text-align: center;
+  background-color: #d8d3cd;
+}
+
+
+/* id selctor */
+#panel1, #flip1, #panel2, #flip2, #panel3, #flip3 {
+    padding: 5px;
+    text-align: center;
+    border: solid 1px #c3c3c3;
+    font-weight: bold;
+}
+
+/* id selctor */
+#panel1 {
+    padding: 50px;
+    display: none;
+}
+#panel2 {
+    padding: 50px;
+    display: none;
+}
+#panel3 {
+    padding: 50px;
+    display: none;
+}
